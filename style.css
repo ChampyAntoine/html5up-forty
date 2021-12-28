@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.fond-heroBanner {
+    background-color: rgba(39, 39, 59, 0.774);
+}
+.hero-banner {
+    background: url("images/banner.jpg");
+    background-position: center 0px;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+.logo-text{
+    background-color: white;
+    color: black;
+    padding: 0.2rem 0.4rem;
+}
+.title {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 12rem 0;
+}
+.title h1 {
+    font-size: 4rem;
+}
+.title hr {
+    margin: 3rem 0;
+}
+.title .under-title {
+    display: flex;
+    align-items: center;
+}
+.title .under-title p {
+    width: 35rem;
+    font-size: 1.3rem;
+    font-variant: small-caps;
+}
+.button-getStarted {
+    border: white 2px solid;
+    padding: 0.3rem 1.5rem;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+}
+.button-getStarted span {
+    margin-right: 1rem;
+}
+section:not(:last-child) {
+    display: flex;
+}
+article .text-article {
+    margin-left: 6rem;
+    padding: 13rem 0;
+}
+article .text-article h2 {
+    font-size: 2.5rem;
+}
+article .text-article hr {
+    margin: 1rem 0;
+    width: 17rem;
+    border: 1px solid white;
+}
+article .text-article span {
+    font-size: 1.3rem;
+    font-variant: small-caps;
+}
+.aliquam {   background: url("images/pic01.jpg") no-repeat; background-size: cover; flex: 2;}
+.tempus {    background: url("images/pic02.jpg") no-repeat; background-size: cover; flex: 3;}
+.magna {     background: url("images/pic03.jpg") no-repeat; background-size: cover; flex: 3;}
+.ipsum {     background: url("images/pic04.jpg") no-repeat; background-size: cover; flex: 2;}
+.consequat { background: url("images/pic05.jpg") no-repeat; background-size: cover; flex: 2;}
+.etiam {     background: url("images/pic06.jpg") no-repeat; background-size: cover; flex: 3;}
+
+.aliquam   .fond-article { background-color: rgba(83, 174, 197, 0.8);}
+.tempus    .fond-article { background-color: rgba(173, 131, 224, 0.8);}
+.magna     .fond-article { background-color: rgba(185, 99, 77, 0.8);}
+.ipsum     .fond-article { background-color: rgba(207, 135, 93, 0.8);}
+.consequat .fond-article { background-color: rgba(133, 156, 219, 0.8);}
+.etiam     .fond-article { background-color: rgba(137, 199, 137, 0.8);}
+
+.aliquam   .fond-article:hover { background-color: transparent;}
+.tempus    .fond-article:hover { background-color: transparent;}
+.magna     .fond-article:hover { background-color: transparent;}
+.ipsum     .fond-article:hover { background-color: transparent;}
+.consequat .fond-article:hover { background-color: transparent;}
+.etiam     .fond-article:hover { background-color: transparent;}
+
+section:last-child { background-color: rgb(42, 42, 75);}
+
+section:last-child .content {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 8rem 0;
+}
+.content h2 {
+    font-size: 2.5rem;
+}
+.content hr {
+    margin: 1.5rem 0 3rem;
+    width: 17rem;
+    border: 1px solid white;
+}
+.content p {
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+.content .button-getStarted span {
+    margin-right: 1rem;
+}
+
+footer {
+    background-color: rgb(20, 20, 85);
+}
+
+.contact {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 8rem;
+}
+
+
+.line-form {
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.formulaire label {
+    display: block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-variant: small-caps;
+}
+.formulaire input, .formulaire textarea {
+    display: block;
+    background-color: rgb(42, 42, 75);
+    padding: 1rem;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.line1-form input {
+    width: 20rem;
+}
+.form-name input{
+    margin-right: 2rem;
+}
+.formulaire textarea {
+    width: 44rem;
+}
+
+.line3-form input{
+    padding: 1rem 2.5rem;
+    font-variant: small-caps;
+}
+.line3-form input:first-child{
+    margin-right: 2rem;
+    background-color: white;
+    color: rgb(20, 20, 85);
+    
+}
+
+.line3-form input:last-child{
+    background-color: rgb(20, 20, 85);
+    border: 2px white solid;
+}
